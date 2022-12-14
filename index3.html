@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Чайная лавка.Меню</title>
+
+    <!-- Bootstrap reboot (для сброса стилей) -->
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css" />
+
+    <!-- Bootstrap сетка -->
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+
+    <!-- Шрифты с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Стили сайта -->
+    <link rel="stylesheet" href="css/styles.css" />
+ <script src="store.js" async></script>
+    <script src="C:\Users\user\OneDrive\Рабочий стол\сайт\script.js"></script>
+  </head>
+  <body>
+    <div class="btn-up btn-up_hide"></div>
+    
+    <nav class="navbar">
+      <div class="side-nav__wrap1">
+        <a href="#klassicheskiy" class="side-nav__link1"><img class="side-nav__pic" src="https://cdn66.printdirect.ru/cache/product/27/cf/414361/tov/all/500z500_front_29_0_0_0_1e2335e9be8ca8668176dec97aaa.jpg?rnd=1250569507" alt=""></a>
+        </div>
+        <div class="side-nav__wrap2">
+        <a href="#travyanniye" class="side-nav__link2"><img class="side-nav__pic" src="https://cdn66.printdirect.ru/cache/product/60/dc/414388/tov/all/500z500_front_29_0_0_0_10fb1ddba378b26005320a1f8e2a.jpg?rnd=1250569643" alt=""></a>
+        </div>
+        
+        <style>
+          .side-nav__link1 {
+  position: relative;
+  position: fixed;
+  bottom: 137px;
+  right: 0;
+  z-index: 1000;
+  
+  
+  }
+  
+  .side-nav__link2 {
+  position: relative;
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  z-index: 1000;
+
+  }
+  .side-nav__pic {
+  width: 90px;
+  opacity: 60%;
+  }
+
+        </style>
+      <div class="container">
+        <a href="https://ru.wikipedia.org/wiki/Чай" class="navbar-brand">TEA</a>
+        <a href="https://ru.wikipedia.org/wiki/Чай" class="navbar-brand-img">
+          <img src=https://png.pngtree.com/png-vector/20190901/ourlarge/pngtree-tea-icon--in-trendy-style-isolated-background-png-image_1718774.jpg height="50px"> 
+        </a>
+        <div class="navbar-wrap">
+          <ul class="navbar-menu">
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="index3.html" class="active-page">Меню</a></li>
+            
+            <li><a href="index2.html">Тест</a></li>
+            <li><a href="index1.html">Контакты</a></li>
+          </ul>
+          
+          <a href="index1.html" class="callback">Обратный звонок</a>
+         
+       
+      </div>
+    </nav>
+    <h5 class="three-title" id="klassicheskiy">КЛАССИЧЕСКИЙ ЧАЙ</h5>
+    <div class="container mt-5">
+        
+        <div class="row">
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://about-tea.ru/wp-content/uploads/5/2/a/52abd7b69bd56c3a9799261ebd8b690e.jpeg"
+                  alt="Да Хун Пао"
+                  title="Да Хун Пао"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Да Хун Пао/Da Hong Pao</h3>
+				
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+             
+                <div class="info-price">
+                  <span class="price">990<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                
+          
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                
+                
+				<div class="info-tea">
+					<a href="https://ru.wikipedia.org/wiki/Да_хун_пао" target="_blank">About Da Hong Pao</a>
+				</div>
+              </div>
+            </div>
+          </div>
+        
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://myteapro.ru/wp-content/uploads/2019/07/0001555.jpeg"
+                  alt="Ассам"
+                  title="Ассам"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Ассам/Assam</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">780<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+				<div class="info-tea">
+					<a href=https://ru.wikipedia.org/wiki/Ассам_(чай) target="_blank">About Assam</a>
+				</div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://about-tea.ru/wp-content/uploads/d/5/1/d51549795acd1b140a4f766e2ad066ce.jpeg"
+                  alt="Каркаде"
+                  title="Каркаде"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Каркаде/Hibiscus</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">880<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+				<div class="info-tea">
+					<a href=https://ru.wikipedia.org/wiki/Каркаде target="_blank">About Hibiscus</a>
+				</div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://samovartime.ru/image/catalog/blog_images/puer/puer-istoki-polza3.jpg"
+                  alt="Шу Пуэр"
+                  title="Шу Пуэр"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Шу Пуэр/Shu Pu-Erh</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">910<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Пуэр" target="_blank">About Shu Pu-Erh</a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://myotea.com/wp-content/uploads/2021/01/Masala-Chai.jpg"
+                  alt="Масала"
+                  title="Масала"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Масала/Masala</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">1040<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Масала_(чай)" target="_blank">About Masala</a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://podacha-blud.com/uploads/posts/2022-10/1664854665_28-podacha-blud-com-p-nash-chai-gaba-chai-foto-30.jpg"
+                  alt="Габа"
+                  title="Габа"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Габа/Gaba</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">1020<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Габа_(чай)" target="_blank">About Gaba</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://tea.ru/upload/blog/1020/19/05.jpeg"
+                  alt="Саган Дайля"
+                  title="Саган Дайля"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Саган Дайля/Sagan Daila</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">920<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://tea.ru/article/chay-sagan-daylya-poleznye-svoystva-vred-protivopokazaniya-i-retsepty/" target="_blank">About Sagan Daila</a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://podacha-blud.com/uploads/posts/2022-10/1665602927_17-podacha-blud-com-p-chaya-molochnii-ulun-krasivie-foto-19.jpg"
+                  alt="Молочный улун"
+                  title="Молочный улун"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Молочный улун/Milk oolong </h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">790<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Улун" target="_blank">About Milk oolong</a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://poleznii-site.ru/wp-content/uploads/2020/03/2-62.jpg"
+                  alt="Сенча"
+                  title="Сенча"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Сенча/Sencha</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">760<small>₽</small></span>
+				  <span class="weight">50<small>гр</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.04401dc2-6390b3cc-5f478cc2-74722d776562/https/en.wikipedia.org/wiki/Sencha" target="_blank">About Sencha</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h5 class="three-title" id="travyanniye">ТРАВЯНЫЕ ДОБАВКИ</h5>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://cdn1.ozone.ru/s3/multimedia-b/6363713915.jpg"
+                  alt="Чайная роза"
+                  title="Чайная роза"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Чайная роза/Tea rose</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">80<small>₽</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Роза_душистая" target="_blank">About Tea rose</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://images.satu.kz/38729015_w640_h640_zelenyj-chaj-s.jpg"
+                  alt="Марокканская мята"
+                  title="Марокканская мята"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Марокканская мята/Moroccan mint</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">40<small>₽</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Мята" target="_blank">About Moroccan mint</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://img.woowrecipes.com/img/article/806/agua-de-romero-para-mejorar-la-memoria.jpg"
+                  alt="Розмарин"
+                  title="Розмарин"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Розмарин/Rosemary</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">40<small>₽</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Розмарин" target="_blank">About Rosemary</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://agrostory.com/upload/medialibrary/d1c/d1cd8e539e2d55ef195011845838e728.jpg"
+                  alt="Тимьян"
+                  title="Тимьян"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Тимьян/Thyme</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">50<small>₽</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Тимьян" target="_blank">About Thyme</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://rare-gallery.com/uploads/posts/859578-Tea-Camomiles-Cup.jpg"
+                  alt="Ромашка"
+                  title="Ромашка"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Ромашка/Chamomile</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">50<small>₽</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.f60004a3-6395f448-3c40c730-74722d776562/https/en.wikipedia.org/wiki/Chamomile" target="_blank">About Chamomile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <div class="image">
+                <img
+                  src="https://www.smartage.pl/wp-content/uploads/2019/05/453645364.jpg"
+                  alt="Анчан"
+                  title="Анчан"
+                  height="300px"
+                  width="400px"
+                />
+              </div>
+              <div class="info">
+                <h3>Анчан/Anchan</h3>
+
+                <ul class="rating">
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star"></ion-icon></li>
+                  <li><ion-icon name="star-half"></ion-icon></li>
+                </ul>
+                <div class="info-price">
+                  <span class="price">80<small>₽</small></span>
+                  <button class="add-to-cart">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </button>
+                </div>
+                <div class="info-tea">
+                  <a href="https://ru.wikipedia.org/wiki/Клитория_тройчатая" target="_blank">About Anchan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+ 
+<script>const btnUp = {
+  el: document.querySelector('.btn-up'),
+  show() {
+    // удалим у кнопки класс btn-up_hide
+    this.el.classList.remove('btn-up_hide');
+  },
+  hide() {
+    // добавим к кнопке класс btn-up_hide
+    this.el.classList.add('btn-up_hide');
+  },
+  addEventListener() {
+    // при прокрутке содержимого страницы
+    window.addEventListener('scroll', () => {
+      // определяем величину прокрутки
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+      // если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
+      scrollY > 400 ? this.show() : this.hide();
+    });
+    // при нажатии на кнопку .btn-up
+    document.querySelector('.btn-up').onclick = () => {
+      // переместим в начало страницы
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+  }
+}
+
+btnUp.addEventListener();</script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+  
+</html>

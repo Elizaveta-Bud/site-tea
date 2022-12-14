@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Чайная лавка.Контакты</title>
+        <!-- Bootstrap reboot (для сброса стилей) -->
+        <link rel="stylesheet" href="libs/bootstrap-reboot.min.css" />
+
+        <!-- Bootstrap сетка -->
+        <link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+    
+        <!-- Шрифты с Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet"
+        />
+    
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        
+        <a href="https://ru.wikipedia.org/wiki/Чай" class="navbar-brand">TEA</a>
+        <a href="https://ru.wikipedia.org/wiki/Чай" class="navbar-brand-img">
+          <img src=https://png.pngtree.com/png-vector/20190901/ourlarge/pngtree-tea-icon--in-trendy-style-isolated-background-png-image_1718774.jpg height="50px"> 
+        </a>
+        <div class="navbar-wrap">
+          <ul class="navbar-menu">
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="index3.html">Меню</a></li>
+            <li><a href="index2.html">Тест</a></li>
+            <li><a href="index1.html"class="active-page">Контакты</a></li>
+          </ul>
+          <a href="index1.html" method="get" target="_self" class="callback">Обратный звонок</a>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="contact">
+      <h2>Связаться со мной</h2>
+      <form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method="get" target="_blank" name="cabinet">
+        <div class="row">
+          <div class="form-group">
+            <label for="name"><h4>Ваше имя</h4></label>
+            <input
+              type="text"
+              name="cabinet"
+              id="name"
+              placeholder="Начните вводить своё имя"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email"><h4>Ваш Email</h4></label>
+            <input
+              type="email"
+              name="cabinet"
+              id="email"
+              placeholder="Начните вводить ваш email "
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone"><h4>Номер телефона</h4></label>
+          <input  id="phone" type="tel" placeholder="+7-000-000-00-00" name="cabinet">
+      </div>
+      <div class="form-group">
+        <label  for="date"><h4>Дата отправки сообщения</h4></label>
+        <input  id="date" type="date" placeholder="14.12.2022" name="cabinet">
+        
+      </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="text"><h4>Ваше сообщение</h4></label>
+         
+          
+          <textarea id="text" rows="2" cols="15" name="cabinet"></textarea>
+          <br/>
+        </div>
+        <div class="form-group">
+          <label for="text"><h4>Ваш отзыв</h4></label>
+         
+          <textarea id="text" rows="2" cols="15" name="cabinet"></textarea>
+          <br />
+        </div>
+        <input class="btn" type="submit" value="Связаться" />
+      </form>
+    </div>
+  </div>
+  <section class="info-bottom">
+    <div class="info__box">
+      <h3 id="call" class="title-about">ТЕЛЕФОН
+        
+      </h3>
+      <p class="info-p__1">+7 987-395-78-50</p>
+      <h3 id="visit" class="title-about">АДРЕС
+        
+      </h3>
+      <p class="info-p__2">Нижний Новгород, Советский район, ул. Кузнечихинская, д. 100, <a target="_ blank" class="LA-link" href="http://ax-alta.com/#contacts">Axalta</a></p>
+      <h3 id="email" class="title-about">ПОЧТА
+        
+      </h3>
+      <p class="info-p__3"><a target="_ blank" class="LA-link" href="mailto:liza.budnikova2003@yandex.ru?">liza.budnikova2003@yandex.ru</a></p>
+      <h3 id="donate" class="title-about">БАНКОВСКИЙ СЧЕТ
+        
+      </h3>
+      <p class="info-p__4" class="info-p__1">30101810900000000603</p>
+      
+      
+    </div>
+  </section>
+ 
+  <style>
+    body {
+  position: relative;
+ 
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: 700px;
+}
+.navbar-brand-img{
+  margin-left: -700px;
+}
+.navbar-brand {
+margin-left: 100px;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+
+}
+
+.navbar-brand:hover {
+  color: rgb(247, 92, 218);
+  transition: all 0.2s ease-in-out;
+}
+  .info-bottom {
+  padding: 5rem 5rem;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/* line 6, C:/Users/Katyukh/Desktop/html_css_course/animal-shelter/src/sass/pages/_about.sass */
+.color-block {
+  width: 100%;
+  height: 5vh;
+  
+}
+
+/* line 11, C:/Users/Katyukh/Desktop/html_css_course/animal-shelter/src/sass/pages/_about.sass */
+.info-p__1 {
+  text-decoration: underline;
+  margin-bottom: 3rem;
+}
+
+/* line 14, C:/Users/Katyukh/Desktop/html_css_course/animal-shelter/src/sass/pages/_about.sass */
+.info-p__2 {
+  text-decoration: underline;
+  margin-bottom: 3rem;
+}
+
+/* line 17, C:/Users/Katyukh/Desktop/html_css_course/animal-shelter/src/sass/pages/_about.sass */
+.info-p__3 {
+  text-decoration: underline;
+  margin-bottom: 3rem;
+}
+
+/* line 20, C:/Users/Katyukh/Desktop/html_css_course/animal-shelter/src/sass/pages/_about.sass */
+.info-p__4 {
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+  .contact h2 {
+    text-align: center;
+    
+  }
+  .placeholder {
+    color: #000;
+  }
+  /*.social {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0px;
+  }*/
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+  }
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+  }
+  
+  .row > .form-group:first-child {
+    margin-right: 20px;
+  }
+  .btn {
+  margin-left: 10px;
+  padding: 10px 30px;
+  background-color: rgb(247, 92, 218);
+  border-radius: 100px;
+  color: aliceblue;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgb(52, 200, 233, 0.2);
+  transition: all.1s ease-out;
+  font-family: inherit;
+  
+  }
+  .bnt.hover {
+    opacity: 0.9;
+    transform: scale(1.04);
+  color: rgb(247, 92, 218);
+  background: aliceblue;
+  box-shadow: 0 9px 6px rgba(52, 200, 233, 0.1);
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      
+      }
+      ::selection {
+        color: green;
+        background: #c850c0;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-image: linear-gradient(
+          43deg,
+          #4158d0 0%,
+          #c850c0 46%,
+          #ffcc70 100%
+        );
+        padding: 0 20px;
+      }
+  </style>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

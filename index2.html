@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Чайная лавка.Тест</title>
+    <!-- Bootstrap reboot (для сброса стилей) -->
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css" />
+
+    <!-- Bootstrap сетка -->
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+
+    <!-- Шрифты с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css\styles.css" />
+    <link rel="stylesheet" href="css\style2.css" />
+    <script src="store.js" async></script>
+ 
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="https://ru.wikipedia.org/wiki/Чай" class="navbar-brand">TEA</a>
+        <a href="https://ru.wikipedia.org/wiki/Чай" class="navbar-brand-img">
+          <img
+          src=https://png.pngtree.com/png-vector/20190901/ourlarge/pngtree-tea-icon--in-trendy-style-isolated-background-png-image_1718774.jpg
+          height="50px">
+        </a>
+
+        <div class="navbar-wrap">
+          <ul class="navbar-menu">
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="index3.html">Меню</a></li>
+            <li><a href="index2.html" class="active-page">Тест</a></li>
+            <li><a href="index1.html">Контакты</a></li>
+          </ul>
+
+          <a href="index1.html" class="callback">Обратный звонок</a>
+        </div>
+      </div>
+    </nav>
+    <h1 class="big-title">Тест. Что вы знаете о чае?</h1>
+    <p class="paragraph">А сейчас предлагаю проверить себя с помощью теста;). Чай – это, пожалуй, самый популярный напиток на планете. И нет ничего лучше, чем чашечка ароматного, свежезаваренного чая для того чтобы расслабиться или просто получить эстетическое вкусовое наслаждение. Много ли вы знаете о чае? 
+
+    </p>
+<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" id="UserEnter" name="UserEnter" target="_blank">
+    <div class="quiz" id="quiz">
+      <div class="quiz-questions" id="questions"></div>
+      <div class="quiz-indicator" id="indicator">1/10</div>
+      <div class="quiz-results" id="results">
+        <div class="quiz-results-item">
+          <div class="quiz-results-item__question">Вопрос 1</div>
+          <ul class="quiz-results-item__answers">
+            <li>Ответ 1</li>
+            <li>Ответ 2</li>
+          </ul>
+        </div>
+      </div>
+      <div class="quiz-controls">
+        <button class="btn-next" id="btn-next" disabled>Далее</button>
+        <button class="btn-restart" id="btn-restart">С начала</button>
+      </div>
+    </div>
+  </body>
+</html>
