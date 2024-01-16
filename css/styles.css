@@ -1,10 +1,10 @@
-
 body {
   position: relative;
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   line-height: 1.4;
   color: #000;
+ 
   overflow-x: hidden;
   height: 700px;
 }
@@ -15,8 +15,9 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
   position: fixed;
   top: 0;
-  background-color: #fff;
+  background-color:#fff;
   z-index: 500;
+
 }
 
 .navbar .container {
@@ -34,34 +35,36 @@ body {
 
 .navbar-menu li {
   display: inline-block;
+ 
+  
 }
 
-.navbar-menu li a {
+.navbar-menu li a{
   display: inline-block;
   color: #000;
   opacity: 0.6;
   text-decoration: none;
   padding: 10px;
   transition: all 0.2s ease-in-out;
+ 
 }
-
 .navbar-menu li a:hover {
   opacity: 1;
   background: #ddd;
   color: black;
   border-radius: 80%;
+  
 }
-
-.navbar-wrap ul li a.active-page {
-  background-color: rgb(247, 92, 218);
-  border-radius: 40%;
+.navbar-wrap ul li a.active-page{
+  background-color:rgb(247, 92, 218);
+border-radius: 40%;
+ 
 }
 
 .navbar-wrap {
   display: flex;
   flex-flow: row nowrap;
 }
-
 .callback {
   margin-left: 30px;
   padding: 10px 30px;
@@ -72,68 +75,63 @@ body {
   box-shadow: 0 4px 6px rgb(52, 200, 233, 0.2);
   transition: all.1s ease-out;
 }
-
 .callback:hover {
   transform: scale(1.04);
   color: aliceblue;
   box-shadow: 0 9px 6px rgba(52, 200, 233, 0.1);
 }
-
-.navbar-brand-img {
+.navbar-brand-img{
   margin-left: -700px;
 }
-
 .navbar-brand {
-  margin-left: 100px;
+margin-left: 100px;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   color: #000;
+
 }
 
 .navbar-brand:hover {
   color: rgb(247, 92, 218);
   transition: all 0.2s ease-in-out;
 }
-
 .product {
   margin-bottom: 30px;
 }
-
 .image {
   margin-bottom: 10px;
 }
 
 .image img {
+  height: 300px;
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
   border-radius: 7px;
 }
-
 .info h3 {
   font-size: 21px;
   margin-bottom: 0;
 }
-
 .rating {
   margin-bottom: 0;
   padding-left: 0;
   list-style-type: none;
-}
 
+}
 .rating li {
   display: inline-block;
   color: #ffc187;
+  
+ 
+  
 }
-
 .info-price {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
-
 .add-to-cart {
   border: none;
   width: 40px;
@@ -145,24 +143,22 @@ body {
   color: #fff;
   border-radius: 10px;
 }
-
 .price {
   font-weight: 700;
   font-size: 18px;
 }
-
 .header {
   min-height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 .header-content {
   text-align: center;
   min-height: 700px;
   align-items: center;
   top: 50%;
+ 
 }
 
 .header-content h1 {
@@ -193,11 +189,11 @@ body {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 30px;
-  padding: 10px 15%;
+  padding: 10px 30px;
+  text-shadow: 3px -1px 3px#000;
 }
-
 .header-content button {
   text-align: center;
   color: aliceblue;
@@ -210,17 +206,15 @@ body {
   background-color: rgb(91, 33, 33);
   border-radius: 20px;
   margin-left: 20px;
-  padding: 10px 15%;
+  padding: 10px 10px;
 }
-
 .header-content button:hover {
   color: rgb(91, 33, 33);
   background-color: aliceblue;
 }
-
 .btn-up {
   position: fixed;
-  background-color: rgb(247, 92, 218);
+  background-color:rgb(247, 92, 218);
   right: 20px;
   bottom: 20px;
   border-radius: 22px;
@@ -239,11 +233,10 @@ body {
   top: 12px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 17V4M3 10l7-7 7 7'/%3E%3C/g%3E%3C/svg%3E");
 }
-
 .btn-main {
   text-decoration: none;
   margin-left: 30px;
-  padding: 10px 15%;
+  padding: 10px 30px;
   background-color: rgb(247, 92, 218);
   border-radius: 100px;
   color: aliceblue;
@@ -251,15 +244,13 @@ body {
   box-shadow: 0 4px 6px rgb(52, 200, 233, 0.2);
   transition: all.1s ease-out;
 }
-
 .header-tea {
   text-align: center;
   margin: 0;
-  position: absolute;
-  text-decoration: none;
-  margin-left: 500px;
+ position: absolute;
+ text-decoration: none;
+ margin-left: 500px;
 }
-
 table {
   border-spacing: 0 10px;
   font-weight: bold;
@@ -269,11 +260,13 @@ table {
   background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613462052_20-p-fon-dlya-prezentatsii-pro-chai-25.jpg);
 }
 
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
+
 
 th {
   position: relative;
@@ -284,6 +277,7 @@ th {
   text-shadow: 3px -1px 3px rgb(255, 254, 254);
 }
 
+
 table td:nth-of-type(1) {
   width: 200px;
   padding-top: 5px;
@@ -291,91 +285,96 @@ table td:nth-of-type(1) {
   padding-left: 10px;
   text-shadow: 3px -1px 3px rgb(255, 254, 254);
 }
-
-.big-title,
-.three-title {
+.big-title {
   margin: 1em 0 0.75em;
-  padding: 0 0 5px 0;
-  color: #6B5344;
-  font-weight: normal;
-  position: relative;
-  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
-  font-size: 36px;
-  line-height: 40px;
-  font-family: 'Carrois Gothic', sans-serif;
-  text-align: center;
+    padding: 0 0 5px 0;
+    color: #6B5344;
+    font-weight: normal;
+    position: relative;
+    text-shadow: 0 2px 0 rgba(255,255,255,0.5);
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Carrois Gothic', sans-serif;
+    text-align: center;
 }
-
 a.text {
   text-decoration: none;
-  color: white;
+  color:white;
 }
-
 a.text:hover {
   text-decoration: none;
-  color: rgb(91, 33, 33);
+  color:rgb(91, 33, 33);
 }
 
 .image-table img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
   border-radius: 25px;
 }
-
+.three-title {
+  margin: 1em 0 0.75em;
+    padding: 0 0 5px 0;
+    color: #6B5344;
+    font-weight: normal;
+    position: relative;
+    text-shadow: 0 2px 0 rgba(255,255,255,0.5);
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Carrois Gothic', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+/*@media (max-width: 700px){
+  .navbar{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  .navbar-wrap{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  .container{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  .navbar-brand{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  .navbar-menu{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  .navbar-wrap{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  body{
+    text-align: center;
+    display: block; }
+}
+@media (max-width: 700px){
+  a{
+    text-align: center;
+    display: block; }
+}*/
 .side-nav {
+  position: relative;
   position: fixed;
   bottom: 20px;
   right: 0;
   z-index: 1000;
-}
-
-.side-nav__pic {
+  }
+  
+  
+  .side-nav__pic {
   width: 60px;
   opacity: 60%;
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar-menu {
-    display: none;
-    flex-flow: column nowrap;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: #fff;
-    width: 100%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 400;
   }
-
-  .navbar-menu.show {
-    display: flex;
-  }
-
-  .navbar-menu li {
-    display: block;
-    margin: 5px 0;
-  }
-
-  .navbar-wrap {
-    flex-flow: column nowrap;
-  }
-
-  .navbar-brand-img,
-  .navbar-brand {
-    margin: 0;
-  }
-
-  .navbar-brand {
-    margin-left: 15px;
-  }
-
-  .callback {
-    margin: 15px 0;
-    padding: 10px 15px;
-  }
-
-  .navbar-brand-img {
-    margin-left: 15px;
-  }
-}
